@@ -28,9 +28,42 @@ class Solution:
      def myAtoi(self, s: str) -> int:
 
         s = s.strip() # removing white space
-        
+        isNeg = False
+        num = ""
 
-        return 0
+        if s == "":
+            return 0
+
+        # check to see if negative
+        if s[0] == "-" or s[0] == "+":
+            if s[0] == "-":
+                isNeg = True
+                s = s.replace("-","",1)
+            elif s[0] == "+":
+                s = s.replace("+","",1)
+
+        # For loop going through the string
+        for i in s:
+            # checking to see if it is a number we are reading
+            if i.isnumeric() == True:
+                num += i
+            else:
+                break
+        if num == "":
+            num = "0"
+        intNum = int(num)
+        if isNeg:
+            intNum = intNum * -1  
+        
+        # checking to see if 32 bit
+        if (intNum < -2**31) or (intNum > 2**31 - 1):
+            if isNeg:
+                return -2**31
+            else:
+                return 2**31 -1
+        else:
+            return intNum
+
 
 
 
@@ -52,4 +85,10 @@ class Solution:
 
 tester = Solution()
 
-
+# print(tester.myAtoi("123"))
+# print(tester.myAtoi("123 has words"))
+# print(tester.myAtoi("-123"))
+# print(tester.myAtoi("+123"))
+print(tester.myAtoi("++1"))
+# print(tester.myAtoi("+-12"))
+# print(tester.myAtoi("-91283472332"))
