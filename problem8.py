@@ -1,7 +1,7 @@
 # Problem #8
 # Name: Ricardo Miranda
 # Date: 3/11/24
-# Completion Date:
+# Completion Date: 3/11/24
 # Description: Implement the *myAtoi(string s) function, which converts a string to a 32-bit
 # signed integer (similar to C/C++'s atoi function).
 # The algorithm for myAtoi(string s) is as follows:
