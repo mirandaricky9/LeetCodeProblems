@@ -1,5 +1,5 @@
 # Problem #
-# Name: Ricardo Miranda
+# Name: Ricky
 # Date: 
 # Completion Date: 
 # Description: 

@@ -1,5 +1,5 @@
 # Problem #7
-# Name: Ricardo Miranda
+# Name: Ricky
 # Date: 3/7/2024
 # Completion Date: 3/7/2024
 # Description: Given a signed 32-bit integer x, return x with its digits reversed. If reversing

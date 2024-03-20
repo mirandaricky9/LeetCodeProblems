@@ -1,5 +1,5 @@
 # Problem #8
-# Name: Ricardo Miranda
+# Name: Ricky
 # Date: 3/11/24
 # Completion Date: 3/11/24
 # Description: Implement the *myAtoi(string s) function, which converts a string to a 32-bit

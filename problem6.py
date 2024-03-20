@@ -1,5 +1,5 @@
 # Problem #6
-# Name: Ricardo Miranda
+# Name: Ricky
 # Date: 3/7/2024
 # Completion Date: 3/7/2024
 # Description: The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows 

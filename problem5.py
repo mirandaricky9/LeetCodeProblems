@@ -1,5 +1,5 @@
 # Problem #
-# Name: Ricardo Miranda
+# Name: Ricky
 # Date: 3/5/2024
 # Completion Date: 3/7/2024
 # Description: Given a string s, return the longest palindromic substring in s.
