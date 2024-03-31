@@ -71,7 +71,7 @@ class Solution:
                                 # might not be good practice 
                                 sIndex = sIndex - 1
             sIndex = sIndex + 1
-        print(sIndex)
+        # print(sIndex)
         if (sIndex + 1) == len(s):
             return True
 
@@ -88,9 +88,9 @@ class Solution:
 
 tester = Solution()
 
-# print(tester.isMatch("aaaaaaaaaaaaa","a*"))
-# print(tester.isMatch("aaaa","a*"))
-# print(tester.isMatch("aaaaaaaaaa","a*"))
-# print(tester.isMatch("a","a*"))
+print(tester.isMatch("aaaaaaaaaaaaa","a*"))
+print(tester.isMatch("aaaa","a*"))
+print(tester.isMatch("aaaaaaaaaa","a*"))
+print(tester.isMatch("a","a*"))
 print(tester.isMatch("acbbb","acb*"))
 
